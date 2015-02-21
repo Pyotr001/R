@@ -1,0 +1,256 @@
+a <- a * a
+a
+?Inf
+a -1
+a /2
+a -a
+a
+nxt()
+a <- 5 +7
+x <- 5 +7
+x
+v <- x - 33
+v <- x - 3
+y <- x - 3
+y
+z <- c(1.1, 9, 2.14)
+z
+z <- c(1.1, 9, 3.14)
+?c
+z
+play()
+z +z
+nxt()
+z, 555, z
+z <- c(z, 555, z)
+z
+c(z, 555, z)
+play()
+z <- z +z
+z
+nxt
+nxt()
+z * 2 +100
+my_sqrt <- sqrt(z -1)
+my_sqrt
+my_div <- my_sqrt / 2
+my_div <- z / my_sqrt
+my_div
+play()
+0 <- 0
+ноль <- 0
+ноль
+null <- c(0, 0, 0, 0, 0, 0)
+odt <- c(1, 2, 3)
+null + odt
+nxt()
+c(1, 2, 3, 4) + c(0, 10)
+c(1, 2, 3, 4) + c(0, 10, 100)
+c(1, 2, 3, 4) + c(0, 10, 1000)
+(z * 2 + 100)
+(z * 2 + 1000)
+z
+info
+info()
+skip()
+my_div
+nxt()
+?dim
+v <- 1:1000
+v
+class(v)
+attributes(v)
+dim(v) <- c(10, 10, 10)
+v
+attributes(v)
+v2 <- matrix(1:1000, nrow=100, ncol=100)
+v2
+dim(v2)
+v2 <- matrix(1:1000, nrow=10, ncol=100)
+v2
+v2 <- matrix(1:1000, nrow=10, ncol=10)
+v2
+dim(v2) <- c(10, 10, 10)
+dim(v2) <- c(3, 5, 5)
+dim(v2) <- c(100, 100, 100)
+v2 <- matrix(1:1000, nrow=1000, ncol=1000)
+v2 <- matrix(1:100, nrow=1000, ncol=1000)
+v2
+v2 <- matrix(1:23, nrow=100, ncol=100)
+v2 <- matrix(1:20, nrow=100, ncol=100)
+v2
+attributes(v2)
+dim(v2) <- c(100,10)
+dim(v2) <- c(100,100, 100)
+dim(v2) <- c(10,100)
+dim(v2) <- c(10,1000)
+v2
+dim(v2) <- c(1000, 10)
+v2
+?array
+array(data=1:100, dim=c(10,10), dimnames=c('a', 'b'))
+a <- array(data=1:100, dim=c(10,10), dimnames=c('a', 'b'))
+a
+a[a]
+a[b]
+a["b"]
+a["a"]
+class(a)
+attributes(a)
+a
+sum(a)
+sum(m[1, 1])
+sum(a[1, 1])
+sum(a[1, ])
+sum(a[c(1, 2, 3), ])
+sum(a[c(1, 2, ), ])
+sum(a[c(1, 2 ), ])
+sum(a[c(1, 4 ), ])
+?apply
+?rnom
+??rnom
+?rnorm
+inf_vector <- rnorm(10, 0, 1)
+inf_vector
+?getRand
+def eratosthenes(n):#
+    multiples = []#
+    for i in xrange(2, n+1):#
+        if i not in multiples:#
+            print i#
+            multiples.extend(xrange(i*i, n+1, i))#
+    return multiples
+list.files(recursive = TRUE)
+a <- available.packages()
+head(rownames(a), 3)
+a
+a <- 1
+search
+search()
+clear()
+getwd()
+cd ..
+library(swirl)
+ls()
+rm(list=ls())
+ls()
+swirl()
+ls
+list.files(recursive = True)
+list.files(recursive = TRUE)
+k
+getwd()
+list.files(recursive = TRUE)
+l
+list.files()
+args(list.files)
+info()
+main()
+5 +7
+x <- 5 +7
+x
+y <- x-3
+y
+c(1.1, 9, 3.14)
+z <- c(1.1, 9, 3.14)
+?c
+z
+c(z, 555, z)
+z * 2 + 100
+my_sqrt <- sqrt(z - 1)
+my_sqrt
+play()
+z
+nxt()
+my_div <- z / my_sqrt
+my_div
+c(1, 2, 3, 4) + c(0, 10)
+c(1, 2, 3, 4) + c(0, 10, 100)
+c(1, 2, 3, 4) + c(0, 10, 1000)
+z * 2 + 1000
+my_div
+getwd()
+a
+ls()
+dir()
+?source
+source("txt.r")
+a
+x <- rnorm(100)
+x
+rnorm
+?rnorm
+swirl()
+getwd()
+ls()
+play()
+?ls
+nxt()
+x <- 9
+ls()
+play()
+?list
+list()
+list
+list.file()
+list.files()
+nxt()
+list.files()
+?list.files
+play()
+list.files(all.files = TRUE)
+nxt()
+list.files(recursive = TRUE)
+?args
+args(list.files)
+old.dir <- getwd()
+?touch
+?file
+?file.create
+file.create(testdir)
+file.create("testdir")
+dir.create("testdir")
+dir.create("testdir")
+setwd("testdir")
+file.create("mytest.R")
+list.files()
+?file
+file("mytest.R")
+?file.exist("mytest.R")
+?file.exist
+?exist
+?file.exists("mytest.R")
+file.exists("mytest.R")
+file("mytest.R")
+?file.info
+file.info("mytest.R")
+file.rename("mytest.R", "mytest2.R")
+file.copy("mytest.R", "mytest3.R")
+file.copy("mytest2.R", "mytest3.R")
+k
+k()
+getwd()
+file.path("mytest3.R")
+?file.path
+create.path("testdir2/testdir3")
+path.create("testdir2/testdir3")
+?create.file
+?file.create
+?dir.create(path = "testdir2/testdir3", recursive = TRUE)
+getwd()
+dir.create(path = "testdir2/testdir3", recursive = TRUE)
+?delete
+?remove
+remove()
+?unlink
+unlink("testdir2")
+unlink("testdir2", recursive = TRUE)
+?setwd
+setwd(old.dir)
+?par
+play
+play()
+getwd()
+nxt()
+unlink("testdir")
+unlink("testdir", recursive = TRUE)
